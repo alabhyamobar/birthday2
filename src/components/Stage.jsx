@@ -1,6 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import React, { useRef, useState } from "react";
 import { gsap } from "gsap";
+import decorImage from "../assets/birthdecor-removebg-preview.png";
+
 
 const Stage = () => {
   const [Lights, setLights] = useState(false);
@@ -135,7 +137,7 @@ const Stage = () => {
         ref={decorAnime}
         className="h-[70vh] w-screen flex justify-center items-center relative top-[5vw] -left-[7vw] opacity-0"
       >
-        <img src="birthdecor-removebg-preview.png" alt="" />
+        <img src={decorImage} alt="" />
       </div>
       {/* Cake Image with Fade-in Animation */}
       <div
