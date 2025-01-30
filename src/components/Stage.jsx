@@ -135,7 +135,7 @@ const Stage = () => {
         ref={decorAnime}
         className="h-[70vh] w-screen flex justify-center items-center relative top-[5vw] -left-[7vw] opacity-0"
       >
-        <img src="decor2-removebg-preview.png" alt="Decoration" />
+        <img src="../assets/decor2-removebg-preview.png" alt="Decoration" />
       </div>
 
       {/* Cake Image with Fade-in Animation */}
