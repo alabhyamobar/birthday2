@@ -47,6 +47,7 @@ const Mes = () => {
             <button
               onClick={() => {
                 navigate("/");
+                alert("dekh le bhai bhaut mahenat se banaya hai");
               }}
               className="px-4 py-3 rounded-full bg-red-400 text-white"
             >

@@ -128,7 +128,7 @@ const Stage = () => {
         <img className={`${Lights ? "hidden" : "visible"} h-[18vw] w-[18vw] ml-[60vh] mt-10`} src={ClickImg} alt="" />
       </div>
 
-      <div ref={starsContainer} className="absolute top-0 left-0 w-full h-full pointer-events-none hidden">
+      <div ref={starsContainer} className="absolute z-60 top-0 left-0 w-full h-full pointer-events-none hidden">
         {starsArray}
       </div>
 
